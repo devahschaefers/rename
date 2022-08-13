@@ -1,0 +1,1 @@
+void handle_err(int err, char* old, char* _new);

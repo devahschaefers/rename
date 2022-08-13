@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/devahschaefers/Dev/c/rename'
+gcc -Wall -Wextra -Werror -std=c99 -c error_handling_rn.c -o error_handling_rn.o
+gcc -Wall -Wextra -Werror -std=c99 -c main.c -o main.o
+gcc -Wall -Wextra -Werror -std=c99 -o rn main.o error_handling_rn.o
+ 
+make: Leaving directory `/Users/devahschaefers/Dev/c/rename'
+ 
